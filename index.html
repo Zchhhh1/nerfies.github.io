@@ -378,17 +378,31 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
+      <div class="column is-full-width">
+      <h2 class="title is-3">Generate Demos</h2>
       <!-- <h1>model generate</h1>
       <p>different kind of data</p> -->
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Gaze</h2>
+          <h2 class="title is-3">Looking Gestures</h2>
           <p>
-            Using sig-chat you can generate gaze data with attention.
+            generate gestures looking towards the target.
           </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/gaze1.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/gaze2.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/gaze3.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/gaze4.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -397,19 +411,32 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Points</h2>
+        <h2 class="title is-3">Pointing Gestures</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-             Using sig-chat you can generate points data with attention.
+             generate gestures pointing towards the target.
             </p>
             <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/pointing1.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/pointing2.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/pointing3.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/pointing4.mp4"
                       type="video/mp4">
             </video>
           </div>
 
         </div>
+      </div>
       </div>
     </div>
     <!--/ Matting. -->
@@ -417,7 +444,7 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Deploy on Humanoid Robot</h2>
 
         <!-- Interpolating. -->
         <!-- <h3 class="title is-4">Interpolating states</h3>
@@ -454,7 +481,7 @@
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Deploy on Real Robot</h3>
+        <!-- <h3 class="title is-4">Deploy on Real Robot</h3> -->
         <div class="content has-text-justified">
           <p>
             We further deploy our motion controller on the Unitree G1 robot, integrating a YOLO-World model for attention-target detection and a reinforcement-learning policy that enables the robot to orient toward the detected target.
