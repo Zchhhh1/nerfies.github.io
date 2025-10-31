@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/icon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -43,7 +43,7 @@
 <body>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
+  <!-- <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -79,7 +79,7 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 </nav>
 
 
@@ -88,39 +88,112 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">SIG-Chat：Spatial Intent-Guided Conversational Gesture Generation</h1>
           <div class="is-size-5 publication-authors">
+            <!-- <span class="author-block">
+              <a href="https://keunhong.com">Yiheng Huang</a><sup>1,2,5*</sup>,</span>
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://utkarshsinha.com"> Junran Peng</a><sup>2,5*</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://jonbarron.info">Silei Shen</a><sup>2,5</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              <a href="http://sofienbouaziz.com">Jingwei Yang</a><sup>7</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              <a href="http://sofienbouaziz.com">Chenghua Zhong</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+              <a href="https://www.danbgoldman.com">Zeji Wei</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://homes.cs.washington.edu/~seitz/">Chencheng Bai</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Yonghao He</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Wei Sui</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Muyi Sun</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Yan Liu</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Xu-Cheng Yin</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Man Zhang</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Zhaoxiang Zhang</a><sup>5,6</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Chuanchen Luo</a><sup>4,5</sup>
+            </span> -->
+            <span class="author-block">
+              <p>Yiheng Huang</p><sup>1,2,5*</sup>,</span>
+            <span class="author-block">
+              <p>Junran Peng</p><sup>2,5*</sup>,</span>
+            <span class="author-block">
+              <p>Silei Shen</p><sup>2,5</sup>,
+            </span>
+            <span class="author-block">
+              <p>Jingwei Yang</p><sup>7</sup>,
+            </span>
+            <span class="author-block">
+              <p>Chenghua Zhong</p><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <p>Zeji Wei</p><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <p>Chencheng Bai</p><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <p>Yonghao He</p><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <p>Wei Sui</p><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <p>Muyi Sun</p><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <p>Yan Liu</p><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <p>Xu-Cheng Yin</p><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <p>Man Zhang</p><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <p>Zhaoxiang Zhang</p><sup>5,6</sup>
+            </span>
+            <span class="author-block">
+              <p>Chuanchen Luo</p><sup>4,5</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>1Beijing University of Posts and Telecommunications,</span>
+            <span class="author-block"><sup>2</sup>University of Science and Technology Beijing，</span>
+            <span class="author-block"><sup>2</sup>D-Robotics，</span>
+            <span class="author-block"><sup>2</sup>Shandong University，</span>
+            <span class="author-block"><sup>2</sup>Linketic，</span>
+            <span class="author-block"><sup>2</sup>Institute of Automation, Chinese Academy of Sciences，</span>
+            <span class="author-block"><sup>2</sup>China University of Mining And Technology</span>
+
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://arxiv.org/pdf/2509.23852"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +202,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://arxiv.org/obs/2509.23852"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,7 +211,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -146,9 +219,9 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -156,16 +229,17 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                </a>
+              </span> -->
             </div>
 
           </div>
@@ -179,13 +253,11 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+        <source src="./static/videos/find_document.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        SIG-Chat generate the interactive conversational gestures
       </h2>
     </div>
   </div>
@@ -198,49 +270,49 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
+            <source src="./static/videos/0827am-072_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
+            <source src="./static/videos/0827am-064_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
+            <source src="./static/videos/0827am-131_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
+            <source src="./static/videos/0827am-147_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-blueshirt">
           <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
+            <source src="./static/videos/bcc1215pm-068_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-mask">
           <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
+            <source src="./static/videos/bcc1217am-058_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-coffee">
           <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
+            <source src="./static/videos/mxt1207am-003_front.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-toby">
           <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
+            <source src="./static/videos/mxt1207am-015_front.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -257,40 +329,30 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
+          
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+           The accompanying actions and gestures in dialogue are often closely linked to
+          interactions with the environment, such as looking toward the interlocutor or using
+          gestures to point to the described target at appropriate moments. Speech and semantics guide the production of gestures by determining their timing (WHEN) and
+          style (HOW), while the spatial locations of interactive objects dictate their directional execution (WHERE). Existing approaches either rely solely on descriptive
+          language to generate motions or utilize audio to produce non-interactive gestures,thereby lacking the characterization of interactive timing and spatial intent. This
+          significantly limits the applicability of conversational gesture generation, whether
+          in robotics or in the fields of game and animation production. To address this
+          gap, we present a full-stack solution. We first established a unique data collection
+          method to simultaneously capture high-precision human motion and spatial intent.
+          We then developed a generation model driven by audio, language, and spatial data,
+          alongside dedicated metrics for evaluating interaction timing and spatial accuracy.
+          Finally, we deployed the solution on a humanoid robot, enabling rich, contextaware physical interactions. Our data, models, and deployment solutions will be
+          fully released.
           </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+          
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -298,7 +360,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
@@ -308,17 +370,18 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-
+      <h1>model generate</h1>
+      <p>different kind of data</p>
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
+          <h2 class="title is-3">Gaze</h2>
+          <!-- <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
-          </p>
+          </p> -->
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+            <source src="./static/videos/gaze1.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -327,15 +390,15 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Points</h2>
         <div class="columns is-centered">
           <div class="column content">
-            <p>
+            <!-- <p>
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
-            </p>
+            </p> -->
             <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+              <source src="./static/videos/pointing3.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -351,7 +414,7 @@
         <h2 class="title is-3">Animation</h2>
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -381,16 +444,26 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <h3 class="title is-4">Deploy on Real Robot</h3>
         <div class="content has-text-justified">
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            We further deploy our motion controller on the Unitree G1 robot, integrating a YOLO-World model for attention-target detection and a reinforcement-learning policy that enables the robot to orient toward the detected target.
           </p>
+        </div>
+        <!-- <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/replay.mp4"
+                    type="video/mp4">
+          </video>
         </div>
         <div class="content has-text-centered">
           <video id="replay-video"
@@ -402,6 +475,41 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
+        </div> -->
+
+        <div class="columns is-centered">
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content has-text-centered">
+              <!-- <p>
+                Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+                would be impossible without nerfies since it would require going through a wall.
+              </p> -->
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/find_phone.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <!--/ Visual Effects. -->
+
+          <!-- Matting. -->
+          <div class="column">
+            <h2 class="title is-3">Points</h2>
+            <div class="columns is-centered">
+              <div class="column content has-text-centered">
+                <!-- <p>
+                  As a byproduct of our method, we can also solve the matting problem by ignoring
+                  samples that fall outside of a bounding box during rendering.
+                </p> -->
+                <video id="matting-video" controls playsinline height="100%">
+                  <source src="./static/videos/drunk.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+
+            </div>
+          </div>
         </div>
         <!--/ Re-rendering. -->
 
@@ -411,7 +519,7 @@
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -434,7 +542,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
@@ -444,11 +552,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@misc{huang2025sigchatspatialintentguidedconversational,
+      title={SIG-Chat: Spatial Intent-Guided Conversational Gesture Generation Involving How, When and Where}, 
+      author={Yiheng Huang and Junran Peng and Silei Shen and Jingwei Yang and ZeJi Wei and ChenCheng Bai and Yonghao He and Wei Sui and Muyi Sun and Yan Liu and Xu-Cheng Yin and Man Zhang and Zhaoxiang Zhang and Chuanchen Luo},
+      year={2025},
+      eprint={2509.23852},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2509.23852}, 
 }</code></pre>
   </div>
 </section>
@@ -458,12 +569,12 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/videos/2509.23852v3.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <!-- <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
-      </a>
+      </a> -->
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
