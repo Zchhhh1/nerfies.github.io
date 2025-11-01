@@ -365,15 +365,13 @@
     <!-- Struct. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-          <h2 class="title is-3">Structe overview</h2>
+          <h2 class="title is-3">Structure Overview</h2>
           <div class="content has-text-justified">
             <img src="./static/images/struct.png"
             
             />
             
-            <p>
-            The overall architecture of SIG-Chat comprises a multimodal encoder and a gesture synthesis backbone. The encoder maps heterogeneous inputs—including speech, text, intent, body pose, and target trajectory—into a unified latent space, while cross-modal attention preserves temporal coherence across modalities. Built upon a Diffusion Transformer, the backbone progressively denoises motion states and integrates conditional features through adaptive fusion modules to generate interpretable gesture trajectories. Furthermore, a Hierarchical Adaptive Fusion mechanism refines generation quality by synchronizing rhythmic dynamics at shallow layers, aligning spatial semantics at deeper layers, and applying residual modulation to enhance controllability and naturalness.
-            </p>
+            
             
           </div>
         </div>
@@ -432,6 +430,8 @@
               </video>
             </div>
           </div>
+          </div>
+          <div class="columns is-centered">
           <div class="column">
             <div class="content has-text-centered">
               
@@ -468,38 +468,53 @@
             <p>
              generate gestures pointing towards the target.
             </p>
-            <section class="hero is-light is-small">
-            <div class="hero-body">
-              <div class="container">
-                <div id="results-carousel" class="carousel results-carousel">
-                  <div class="item item-blueshirt">
-                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/pointing1.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-mask">
-                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/pointing2.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-coffee">
-                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/pointing3.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-toby">
-                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/pointing4.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                </div>
-              </div>
+            <div class="columns is-centered">
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/pointing1.mp4"
+                        type="video/mp4">
+              </video>
             </div>
-          </section>
+          </div>
+          <!--/ Visual Effects. -->
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/pointing2.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+          </div>
+          <div class="columns is-centered">
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/pointing3.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+          
+          <div class="column">
+            <div class="columns is-centered">
+              <div class="column content has-text-centered">
+                
+                <video id="matting-video" controls playsinline height="100%">
+                  <source src="./static/videos/pointing4.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+
+            </div>
+          </div>
+        </div>
           </div>
 
         </div>
