@@ -336,8 +336,7 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <img src="./static/images/teaser.png"
-        class="interpolation-image"
-        alt="Interpolate start reference image."/>
+        />
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
@@ -364,9 +363,9 @@
     <!--/ Abstract. -->
     <!-- Struct. -->
     <div class="column is-four-fifths">
-        <h2 class="title is-3">Structer</h2>
+        <h2 class="title is-3">Structe overview</h2>
         <div class="content has-text-justified">
-          <img src="./static/images/teaser.png"
+          <img src="./static/images/struct.png"
           
           />
           
@@ -409,38 +408,51 @@
           <p>
             generate gestures looking towards the target.
           </p>
-          <section class="hero is-light is-small">
-            <div class="hero-body">
-              <div class="container">
-                <div id="results-carousel" class="carousel results-carousel">
-                  <div class="item item-blueshirt">
-                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/gaze1.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-mask">
-                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/gaze2.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-coffee">
-                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/gaze3.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-toby">
-                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-                      <source src="./static/videos/gaze4.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                </div>
-              </div>
+          <div class="columns is-centered">
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/gaze1.mp4"
+                        type="video/mp4">
+              </video>
             </div>
-          </section>
+          </div>
+          <!--/ Visual Effects. -->
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/gaze2.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content has-text-centered">
+              
+              <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/gaze3.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+          
+          <div class="column">
+            <div class="columns is-centered">
+              <div class="column content has-text-centered">
+                
+                <video id="matting-video" controls playsinline height="100%">
+                  <source src="./static/videos/gaze4.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+
+            </div>
+          </div>
+        </div>
         </div>
       </div>
       <!--/ Visual Effects. -->
