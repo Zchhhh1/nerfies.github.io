@@ -330,10 +330,14 @@
 </section>
 
 
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
+      <img src="./static/images/teaser.png"
+        class="interpolation-image"
+        alt="Interpolate start reference image."/>
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
@@ -358,6 +362,22 @@
       </div>
     </div>
     <!--/ Abstract. -->
+    <!-- Struct. -->
+    <div class="column is-four-fifths">
+        <h2 class="title is-3">Structer</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/teaser.png"
+          
+          />
+          
+          <p>
+           The overall architecture of SIG-Chat comprises a multimodal encoder and a gesture synthesis backbone. The encoder maps heterogeneous inputs—including speech, text, intent, body pose, and target trajectory—into a unified latent space, while cross-modal attention preserves temporal coherence across modalities. Built upon a Diffusion Transformer, the backbone progressively denoises motion states and integrates conditional features through adaptive fusion modules to generate interpretable gesture trajectories. Furthermore, a Hierarchical Adaptive Fusion mechanism refines generation quality by synchronizing rhythmic dynamics at shallow layers, aligning spatial semantics at deeper layers, and applying residual modulation to enhance controllability and naturalness.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <!--/ Struct. -->
 
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
@@ -389,22 +409,38 @@
           <p>
             generate gestures looking towards the target.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/gaze1.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/gaze2.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/gaze3.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/gaze4.mp4"
-                    type="video/mp4">
-          </video>
+          <section class="hero is-light is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item item-blueshirt">
+                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/gaze1.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-mask">
+                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/gaze2.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-coffee">
+                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/gaze3.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-toby">
+                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/gaze4.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <!--/ Visual Effects. -->
@@ -417,22 +453,38 @@
             <p>
              generate gestures pointing towards the target.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/pointing1.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/pointing2.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/pointing3.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/pointing4.mp4"
-                      type="video/mp4">
-            </video>
+            <section class="hero is-light is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item item-blueshirt">
+                    <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/pointing1.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-mask">
+                    <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/pointing2.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-coffee">
+                    <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/pointing3.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-toby">
+                    <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                      <source src="./static/videos/pointing4.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           </div>
 
         </div>
